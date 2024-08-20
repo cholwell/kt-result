@@ -14,3 +14,5 @@ fun <T> Result<T, *>.isOk() = this is Result.Ok<T>
 fun <E> Err(error: E) = Result.Err(error)
 
 fun <E> Result<*, E>.isErr() = this is Result.Err<E>
+
+data object None
