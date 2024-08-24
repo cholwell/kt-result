@@ -11,11 +11,15 @@ fun <T> Ok(value: T) = Result.Ok(value)
 
 fun <T> Result<T, *>.isOk() = this is Result.Ok<T>
 
+fun <T> Result<T, *>.ok() = this as Result.Ok<T>
+
 fun <T> Result<T, *>.okOrNull() = this as? Result.Ok<T>
 
 fun <E> Err(error: E) = Result.Err(error)
 
 fun <E> Result<*, E>.isErr() = this is Result.Err<E>
+
+fun <E> Result<*, E>.err() = this as Result.Err<E>
 
 fun <E> Result<*, E>.errOrNull() = this as? Result.Err<E>
 

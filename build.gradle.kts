@@ -1,6 +1,6 @@
 group = "cholwell.dev"
 
-version = "1.2"
+version = "1.3"
 
 plugins {
     alias(libs.plugins.kotlin)
