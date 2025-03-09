@@ -1,4 +1,4 @@
-package cholwell.dev.kotlin_result
+package cholwell.dev.kt_result
 
 sealed interface Result<out T, out E> {
 

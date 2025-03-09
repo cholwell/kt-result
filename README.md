@@ -1,1 +1,1 @@
-# kotlin-result
+# kt-result

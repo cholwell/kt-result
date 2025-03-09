@@ -1,4 +1,4 @@
-rootProject.name = "kotlin-result"
+rootProject.name = "kt-result"
 
 dependencyResolutionManagement {
     repositories {
